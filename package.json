@@ -1,0 +1,39 @@
+{
+  "name": "ip-location",
+  "version": "1.0.0",
+  "description": "A lightweight IP location finder that retrieves geolocation details (like country, region, city, and coordinates) for a given IP address. Perfect for adding geolocation capabilities to your applications.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imshawan/ip-location.git"
+  },
+  "keywords": [
+    "ip",
+    "location",
+    "geolocation",
+    "ip-address",
+    "geoip",
+    "ip-tracker",
+    "ip-lookup",
+    "location-finder",
+    "geodata",
+    "ip-geolocation",
+    "network-tools",
+    "ip-database",
+    "geolocation-service",
+    "ip-location-api",
+    "ip-info"
+  ],
+  "author": "Shawan Mandal <github@imshawan.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imshawan/ip-location/issues"
+  },
+  "homepage": "https://github.com/imshawan/ip-location#readme"
+}
