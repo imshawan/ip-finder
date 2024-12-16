@@ -19,7 +19,7 @@ class IpLocation {
      * @returns bool
      */
     private isIPv6(ip: string): boolean {
-        return ip.split(":").length > 1;
+        return ip.split(":").length > 2;
     }
 
     /**
@@ -38,6 +38,9 @@ class IpLocation {
 
         if (ip.startsWith("[") && ip.includes("]")) {
             ip = ip.substring(1, ip.indexOf("]"));
+
+        } else if (ip.split(":").length <= 2) {
+            ip = ip.split(":")[0];
         }
 
         return { ip, port };
