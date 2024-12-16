@@ -1,4 +1,4 @@
-class IpLocation {
+module.exports = class IpLocation {
     private readonly ip: string;
     private readonly finder: string;
     private readonly source: string;
@@ -77,5 +77,3 @@ class IpLocation {
         }
     }
 }
-
-export default IpLocation;
