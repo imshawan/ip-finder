@@ -1,4 +1,4 @@
-module.exports = class IpLocation {
+export class IpLocation {
     private readonly ip: string;
     private readonly finder: string;
     private readonly source: string;
